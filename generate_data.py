@@ -13,6 +13,8 @@ import os
 
 
 def main():
+    random.seed(time.time())
+
     parser = argparse.ArgumentParser(
         prog="Lamini", description="Generates data for LLM instruction tuning"
     )
