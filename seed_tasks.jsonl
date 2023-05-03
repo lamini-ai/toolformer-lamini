@@ -1,0 +1,237 @@
+{ "question" : "What is the weather today?", "response" : "<TOOLFORMER_API_START>Location()<TOOLFORMER_API_RESPONSE>Chicago, Illinois<TOOLFORMER_API_END><TOOLFORMER_API_START>Weather(\"Chicago, Illinois\")<TOOLFORMER_API_RESPONSE>60 degrees, windy<TOOLFORMER_API_END> It is currently 60 degrees and windy." }
+{ "question" : "What's the current time in London, and how much is 50 USD in the local currency there?",  "response" : "<TOOLFORMER_API_START>Location()<TOOLFORMER_API_RESPONSE>London, England<TOOLFORMER_API_END><TOOLFORMER_API_START>BashProcess(\"date +%T\")<TOOLFORMER_API_RESPONSE>The current time in London is 15:45:12<TOOLFORMER_API_END><TOOLFORMER_API_START>RequestsGetTool(\"https://api.exchangeratesapi.io/latest?base=USD&symbols=GBP\")<TOOLFORMER_API_RESPONSE>The current exchange rate is 0.77 GBP for 1 USD<TOOLFORMER_API_END> The current time in London is 15:45:12 and 50 USD is equal to 38.50 GBP." }
+{ "question" : "What's the best way to get from London to Paris?", "response" : "<TOOLFORMER_API_START>Search(\"London to Paris transportation\")<TOOLFORMER_API_RESPONSE>The best way to get from London to Paris is by train.<TOOLFORMER_API_END> The best way to get from London to Paris is by train." }
+{ "question" : "What's the weather forecast for the next 5 days in New York?", "response" : "<TOOLFORMER_API_START>Location()<TOOLFORMER_API_RESPONSE>New York, New York<TOOLFORMER_API_END><TOOLFORMER_API_START>Weather(\"New York, New York\")<TOOLFORMER_API_RESPONSE>The weather forecast for the next 5 days in New York is sunny with temperatures ranging from the mid-60s to the mid-70s. <TOOLFORMER_API_END>" }
+{ "question" : "What is the population of Tokyo?", "response" : "<TOOLFORMER_API_START>Search(\"Tokyo population\")<TOOLFORMER_API_RESPONSE>Tokyo has a population of 9,273,742<TOOLFORMER_API_END> Tokyo has a population of 9,273,742." }
+{ "question" : "What are the top 5 tourist attractions in Rome?", "response" : "<TOOLFORMER_API_START>Search(\"top 5 tourist attractions in Rome\")<TOOLFORMER_API_RESPONSE>The Colosseum, The Pantheon, St. Peter's Basilica, Trevi Fountain, and the Roman Forum<TOOLFORMER_API_END>The top 5 tourist attractions in Rome are The Colosseum, The Pantheon, St. Peter's Basilica, Trevi Fountain, and the Roman Forum." }
+{ "question" : "What's the fastest route from London to Edinburgh?", "response" : "<TOOLFORMER_API_START>Location()<TOOLFORMER_API_RESPONSE>London, England<TOOLFORMER_API_END><TOOLFORMER_API_START>Search(\"fastest route from London to Edinburgh\")<TOOLFORMER_API_RESPONSE>The fastest route from London to Edinburgh is by train, taking 4 hours and 15 minutes<TOOLFORMER_API_END>The fastest route from London to Edinburgh is by train, taking 4 hours and 15 minutes." }
+{ "question" : "What's the capital of Spain?" }
+{ "question" : "What's the best time to visit Hawaii?" }
+{ "question" : "What's the difference between a hurricane and a typhoon?" }
+{ "question" : "Where can I find the best Italian food in Rome?" }
+{ "question" : "What's the best restaurant in Mexico City?" }
+{ "question" : "What's the best way to get to the airport in Mexico City?" }
+{ "question" : "What's the best way to learn Spanish?" }
+{ "question" : "What's the best way to find a job in Mexico?" }
+{ "question" : "What's the cheapest way to send a package to the US?" }
+{ "question" : "What are the top tourist attractions in Mexico?" }
+{ "question" : "What's the best way to save money when traveling to Mexico?" }
+{ "question" : "What's the best way to find a hotel in Mexico City?" }
+{ "question" : "What's the best way to find a good doctor in Mexico?" }
+{ "question" : "What is the best way to learn Mandarin?" }
+{ "question" : "What is the capital of China?" }
+{ "question" : "What is the population of Beijing?" }
+{ "question" : "What is the best time to visit the Great Wall of China?" }
+{ "question" : "What is the best way to get from Beijing to Shanghai?" }
+{ "question" : "What is the best time to go skiing in China?" }
+{ "question" : "What is the most popular food in China?" }
+{ "question" : "Where can I find the best Dim Sum in Beijing?" }
+{ "question" : "What is the average life expectancy in China?" }
+{ "question" : "What is the most popular tourist destination in China?" }
+{ "question" : "What is the population of India?" }
+{ "question" : "What is the best restaurant in Mumbai?" }
+{ "question" : "What's the current temperature in Delhi?" }
+{ "question" : "How high is Mount Everest?" }
+{ "question" : "What is the capital of India?" }
+{ "question" : "What is the population density of India?" }
+{ "question" : "What is the currency exchange rate from Indian Rupee to US Dollar?" }
+{ "question" : "What is the population of Mumbai?" }
+{ "question" : "What are the top tourist attractions in India?" }
+{ "question" : "How many incidents of flu were there this year in Toronto?", "response": "<TOOLFORMER_API_START>Location()<TOOLFORMER_API_RESPONSE>Toronto, Ontario<TOOLFORMER_API_END><TOOLFORMER_API_START>Search(\"flu incidents Toronto\")<TOOLFORMER_API_RESPONSE>According to the Toronto Public Health website, there were over 10,000 confirmed cases of flu in Toronto this year.<TOOLFORMER_API_END>" }
+{ "question" : "What is the current temperature in Vancouver?" }
+{ "question" : "How do I perform a bash script on Windows?" }
+{ "question" : "What is the population of Calgary?" }
+{ "question" : "How can I find a good Italian restaurant in Montreal?" }
+{ "question" : "What is the current time in Ottawa?" }
+{ "question" : "How much is 50 USD in Canadian Dollars?" }
+{ "question" : "How many hospitals are in Canada?" }
+{ "question" : "What are the symptoms of the common cold?" }
+{ "question" : "How can I find the nearest pharmacy in Halifax?" }
+{ "question" : "What is the atomic number of helium?" }
+{ "question" : "What is the boiling point of nitrogen?" }
+{ "question" : "What is the melting point of aluminum?" }
+{ "question" : "What is the density of iron?" }
+{ "question" : "What is the molar mass of oxygen?" }
+{ "question" : "What is the formula for magnesium oxide?" }
+{ "question" : "What is the oxidation state of carbon in carbon dioxide?" }
+{ "question" : "What is the electronegativity of sulfur?" }
+{ "question" : "What is the atomic radius of hydrogen?" }
+{ "question" : "What is the bond angle of water?" }
+{ "question" : "What is the population of New York City?" }
+{ "question" : "What is the current temperature in Tokyo?" }
+{ "question" : "What is the average cost of a college textbook?" }
+{ "question" : "What is the best way to cook a steak?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the Euro?" }
+{ "question" : "What is the average salary of a software engineer in San Francisco?" }
+{ "question" : "What is the best way to learn Spanish?" }
+{ "question" : "What is the average cost of living in London?" }
+{ "question" : "What is the best way to make a pizza?" }
+{ "question" : "What is the best way to learn Spanish?" }
+{ "question" : "What is the best way to invest in stocks?" }
+{ "question" : "What is the best way to make a website?" }
+{ "question" : "What is the best way to make a paper airplane?" }
+{ "question" : "What is the best way to make a budget?" }
+{ "question" : "What is the best way to make a resume?" }
+{ "question" : "What is the best way to make a smoothie?" }
+{ "question" : "What is the best way to make a fire?" }
+{ "question" : "What is the best way to make a pizza?" }
+{ "question" : "How can I draw a picture of an alien?" }
+{ "question" : "What is the population of India?" }
+{ "question" : "What is the best way to learn Spanish?" }
+{ "question" : "What is the current temperature in Tokyo?" }
+{ "question" : "What is the capital of France?" }
+{ "question" : "What is the best way to cook a steak?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the Euro?" }
+{ "question" : "What is the fastest way to get to the airport?" }
+{ "question" : "What is the best way to invest money?" }
+{ "question" : "What is the best way to learn a new language?" }
+{ "question" : "What is the best way to detect malicious activity on a network?" }
+{ "question" : "What is the current temperature in San Francisco?" }
+{ "question" : "How can I find the latest version of the Linux kernel?" }
+{ "question" : "What is the best way to secure a web application?" }
+{ "question" : "What is the population of New York City?" }
+{ "question" : "How can I find the latest version of the Apache web server?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the Euro?" }
+{ "question" : "How can I find the latest version of the Java Development Kit?" }
+{ "question" : "What is the current air quality in Beijing?" }
+{ "question" : "How can I write a object relation mapping using SqlAlchemy?" }
+{ "question" : "What is the best way to deploy a web application on AWS?" }
+{ "question" : "What is the best way to debug a Python script?" }
+{ "question" : "What is the best way to secure a web application?" }
+{ "question" : "How can I use the Google Maps API to get directions?" }
+{ "question" : "How can I use the Wikipedia API to search for a specific article?" }
+{ "question" : "How can I use the RequestsGetTool to make a GET request to an API endpoint?" }
+{ "question" : "How can I use BashProcess to execute a bash command?" }
+{ "question" : "What is the current weather in San Francisco?" }
+{ "question" : "What is the current time in London?" }
+{ "question" : "What is the ICD_9 code for a hip surgery?" }
+{ "question" : "What is the CPT code for a knee replacement?" }
+{ "question" : "What is the ICD_10 code for a broken arm?" }
+{ "question" : "What is the CPT code for a hernia repair?", "response" : "<TOOLFORMER_API_START>Search(\"CPT code for hernia repair\")<TOOLFORMER_API_RESPONSE>The CPT code for a hernia repair is 49560<TOOLFORMER_API_END> The CPT code for a hernia repair is 49560." }
+{ "question" : "What is the ICD_9 code for a tonsillectomy?" }
+{ "question" : "What is the CPT code for a gallbladder removal?" }
+{ "question" : "What is the ICD_10 code for a fractured rib?" }
+{ "question" : "What is the CPT code for a hysterectomy?" }
+{ "question" : "What is the ICD_9 code for a cataract surgery?" }
+{ "question" : "What is the CPT code for an appendectomy?" }
+{ "question" : "Which isomer of C4H10O2 has the highest normal boiling point?" }
+{ "question" : "What is the boiling point of ethanol?" }
+{ "question" : "What is the melting point of sodium chloride?" }
+{ "question" : "What is the chemical formula for glucose?" }
+{ "question" : "What is the molecular weight of carbon dioxide?" }
+{ "question" : "What is the density of water?" }
+{ "question" : "What is the molar mass of sulfuric acid?" }
+{ "question" : "What is the pH of hydrochloric acid?" }
+{ "question" : "What is the solubility of potassium nitrate?" }
+{ "question" : "What is the oxidation state of chlorine in HClO4?" }
+{ "question" : "What is the Lewis structure of carbon dioxide?" }
+{ "question" : "What is the boiling point of propane?" }
+{ "question" : "What is the melting point of magnesium oxide?" }
+{ "question" : "What is the chemical formula for ethanol?" }
+{ "question" : "What is the molecular weight of sulfuric acid?", "response": "<TOOLFORMER_API_START>Search(\"molecular weight of sulfuric acid\")<TOOLFORMER_API_RESPONSE>The molecular weight of sulfuric acid is 98.08 g/mol<TOOLFORMER_API_END> The molecular weight of sulfuric acid is 98.08 g/mol." }
+{ "question" : "What is the density of carbon dioxide?" }
+{ "question" : "What is the molar mass of sodium chloride?" }
+{ "question" : "What is the pH of sodium hydroxide?" }
+{ "question" : "What is the solubility of calcium carbonate?" }
+{ "question" : "What is the oxidation state of oxygen in H2O2?" }
+{ "question" : "Which words or phrases do you most overuse?" }
+{ "question" : "What is the best way to market a new band?" }
+{ "question" : "What is the most effective way to reach a new audience?" }
+{ "question" : "What is the best way to increase engagement on social media?" }
+{ "question" : "What is the best way to create a successful music video?" }
+{ "question" : "What is the best way to promote a new album?" }
+{ "question" : "What is the best way to create a successful tour?" }
+{ "question" : "What is the best way to create a successful merchandise line?" }
+{ "question" : "What is the best way to create a successful music festival?", "response" : "<TOOLFORMER_API_START>Search(\"how to create a successful music festival\")<TOOLFORMER_API_RESPONSE>Various articles and resources<TOOLFORMER_API_END> It looks like there are many resources online that can help you create a successful music festival. Here are a few that may be helpful:\n- https://www.eventbrite.com/blog/how-to-start-a-music-festival-ds00/\n- https://www.eventmanagerblog.com/how-to-start-a-music-festival\n- https://www.thebalancesmb.com/how-to-start-a-music-festival-2533451" }
+{ "question" : "What is the best way to create a successful music streaming service?" }
+{ "question" : "How can i make a flavor with chili infused honey, maple, and simple syrups?" }
+{ "question" : "What is the population of the United States?" }
+{ "question" : "What is the current temperature in New York City?" }
+{ "question" : "What is the best way to market a new type of cereal?" }
+{ "question" : "What is the average cost of a gallon of milk in the US?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the Euro?" }
+{ "question" : "What is the most popular type of cheese in France?" }
+{ "question" : "What is the average cost of a dozen eggs in the US?" }
+{ "question" : "What is the current weather in Los Angeles?" }
+{ "question" : "What is the average cost of a pound of ground beef in the US?" }
+{ "question" : "What is the average cost of a gallon of gas in the US?" }
+{ "question" : "What is the most popular type of bread in Italy?" }
+{ "question" : "What is the average cost of a dozen donuts in the US?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the British Pound?" }
+{ "question" : "What is the most popular type of ice cream in the US?" }
+{ "question" : "What is the average cost of a pound of apples in the US?" }
+{ "question" : "What is the current temperature in San Francisco?" }
+{ "question" : "Can you explain the results of the DNA analysis for the blood sample found at the crime scene and how it matches the suspect's DNA profile?" }
+{ "question" : "What is the current temperature in the lab and what is the humidity?" }
+{ "question" : "What is the chemical composition of the unknown substance found at the crime scene?" }
+{ "question" : "What is the current status of the investigation and what are the next steps?" }
+{ "question" : "What is the current location of the suspect and what is the best route to take to apprehend them?" }
+{ "question" : "What is the current weather in the area and what is the forecast for the next 24 hours?" }
+{ "question" : "What is the current news about the case and what are the latest developments?" }
+{ "question" : "What is the current status of the evidence and what is the chain of custody?" }
+{ "question" : "What is the current temperature in the area and what is the wind speed?" }
+{ "question" : "What is the current population of the city and what is the crime rate?", "response" : "<TOOLFORMER_API_START>Search(\"population of city\")<TOOLFORMER_API_RESPONSE>Chicago has a population of 2,722,389<TOOLFORMER_API_END><TOOLFORMER_API_START>Search(\"crime rate of city\")<TOOLFORMER_API_RESPONSE>Chicago has a crime rate of 5,976 per 100,000 people<TOOLFORMER_API_END> The current population of Chicago is 2,722,389 and the crime rate is 5,976 per 100,000 people." }
+{ "question" : "What is the current status of the trial and what is the expected outcome?" }
+{ "question" : "What is the current location of the witness and what is the best way to contact them?" }
+{ "question" : "What is the current temperature in the area and what is the air quality?" }
+{ "question" : "What is the current status of the investigation and what are the possible suspects?" }
+{ "question" : "What is the current news about the case and what are the public's reactions?" }
+{ "question" : "What is the current status of the evidence and what is the timeline of events?" }
+{ "question" : "What is the current location of the suspect and what is the best route to take to apprehend them?" }
+{ "question" : "What is the current weather in the area and what is the forecast for the next 24 hours?" }
+{ "question" : "What are the geological features and processes that contributed to the formation of this mineral deposit?" }
+{ "question" : "What is the average temperature in the Arctic Circle?" }
+{ "question" : "What is the population of the United States?" }
+{ "question" : "What is the current air quality in Beijing?" }
+{ "question" : "What is the average annual rainfall in the Amazon rainforest?" }
+{ "question" : "What is the average life expectancy in India?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the Euro?" }
+{ "question" : "What is the average depth of the Pacific Ocean?" }
+{ "question" : "What is the average temperature in the Sahara Desert?" }
+{ "question" : "What is the current population of the United Kingdom?" }
+{ "question" : "What is the average annual temperature in the Antarctic?" }
+{ "question" : "What is the average annual precipitation in the Sahara Desert?" }
+{ "question" : "What is the average annual temperature in the Arctic Circle?" }
+{ "question" : "What is the current air quality in New Delhi?" }
+{ "question" : "What is the average life expectancy in China?" }
+{ "question" : "What is the current exchange rate between the US Dollar and the British Pound?" }
+{ "question" : "What is the average depth of the Atlantic Ocean?" }
+{ "question" : "What is the average annual precipitation in the Amazon rainforest?" }
+{ "question" : "What is the average annual temperature in the United States?" }
+{ "question" : "What is the temperature on Mars?" }
+{ "question" : "What is the current phase of the moon?" }
+{ "question" : "What is the distance between Earth and the Sun?" }
+{ "question" : "What is the average temperature on Jupiter?" }
+{ "question" : "What is the composition of Saturn's rings?" }
+{ "question" : "What is the orbital period of Mars?" }
+{ "question" : "What is the average distance between Earth and the Moon?" }
+{ "question" : "What is the average temperature on Venus?" }
+{ "question" : "What is the average distance between Earth and Mars?" }
+{ "question" : "What is the average distance between Earth and Jupiter?" }
+{ "question" : "What is the average distance between Earth and Saturn?", "response" : "<TOOLFORMER_API_START>Search(\"average distance between Earth and Saturn\")<TOOLFORMER_API_RESPONSE>The average distance between Earth and Saturn is approximately 890 million miles.<TOOLFORMER_API_END> The average distance between Earth and Saturn is approximately 890 million miles." }
+{ "question" : "What is the average distance between Earth and Uranus?" }
+{ "question" : "What is the average distance between Earth and Neptune?" }
+{ "question" : "What is the average distance between Earth and Pluto?" }
+{ "question" : "What is the average temperature on Neptune?" }
+{ "question" : "What is the average temperature on Uranus?" }
+{ "question" : "What is the average temperature on Pluto?" }
+{ "question" : "What is the average temperature on the Moon?" }
+{ "question" : "What are the potential environmental impacts of this proposed development project, and how can they be mitigated?" }
+{ "question" : "What factors are contributing to the decline of this species, and what can be done to protect it?" }
+{ "question" : "What are the risks and benefits of this new technology for the environment and human health?" }
+{ "question" : "What is the current air quality in this region, and what can be done to improve it?" }
+{ "question" : "What are the current water quality levels in this river, and what can be done to restore it?" }
+{ "question" : "What is the current rate of deforestation in this area, and what can be done to reduce it?" }
+{ "question" : "What are the current levels of carbon dioxide in the atmosphere, and what can be done to reduce them?", "response" : "<TOOLFORMER_API_START>Search(\"carbon dioxide atmosphere levels\")<TOOLFORMER_API_RESPONSE>According to the World Meteorological Organization, the current level of carbon dioxide in the atmosphere is 410.31 parts per million.<TOOLFORMER_API_END> To reduce carbon dioxide levels, people can reduce their energy consumption by using renewable energy sources, such as solar and wind power, and by reducing their dependence on fossil fuels. Additionally, individuals can reduce their carbon footprint by limiting their consumption of animal products, eating locally grown food, and reducing their waste."  }
+{ "question" : "What are the current levels of air pollution in this city, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of water pollution in this region, and what can be done to reduce them?" }
+{ "question" : "What is the current rate of species extinction in this area, and what can be done to prevent it?" }
+{ "question" : "What are the current levels of soil erosion in this region, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of hazardous waste in this area, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of noise pollution in this city, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of light pollution in this region, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of chemical pollution in this area, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of radioactive contamination in this region, and what can be done to reduce them?" }
+{ "question" : "What is the current rate of soil degradation in this area, and what can be done to improve it?" }
+{ "question" : "What are the current levels of ocean acidification in this region, and what can be done to reduce them?" }
+{ "question" : "What are the current levels of ozone depletion in this area, and what can be done to reduce them?" }
