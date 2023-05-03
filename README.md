@@ -1,14 +1,13 @@
 
-# Lamini: Create Your Own ChatGPT
+# Lamini: Create Your Own Toolformer
 [![License](https://img.shields.io/badge/License-CC%20By%204.0-green.svg)](/LICENSE.txt)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 This is the repo for the Lamini project, which aims to build and share an instruction-following model with CC-BY license that allows commercial use. The repo contains:
 
-- The [71K data](#data-release) used for finetuning your own instruction-following LLM, a la ChatGPT.
+- The [71K data](#data-release) used for finetuning your own instruction-following LLM, a la Toolformer.
 - The code for [generating the data](#run).
-- Fine-tuned Pythia models on Huggingface [weights](https://huggingface.co/lamini/instruct-tuned-2.8b) [playground](https://huggingface.co/spaces/lamini/instruct-playground).
 
 See our [blogpost](https://lamini.ai/blog) for layperson's terms on what's going on.
 
