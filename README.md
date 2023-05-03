@@ -45,7 +45,7 @@ See our [API docs](https://lamini-ai.github.io/auth/) for more details.
 ## Run
 Clone the repository:
 ```
-git clone git@github.com:lamini-ai/lamini.git
+git clone git@github.com:lamini-ai/toolformer-lamini.git
 ```
 
 ### Using Python 🐍
